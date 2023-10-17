@@ -1,10 +1,6 @@
 <h1 align="center">Qurani</h1>
 <p align="center">
 
-## :dart: About ##
-
-Qurani is an Application for reading and listening to the Holy Quran, supplications, the beautiful names of God, Al Tasbih, supplications, how to perform ablution, and the direction of prayer.
-
 <!-- TABLE OF CONTENTS -->
 
   <summary>Table of Contents</summary>
@@ -17,6 +13,13 @@ Qurani is an Application for reading and listening to the Holy Quran, supplicati
   </ol>
 
 <br>
+
+
+## :dart: About ##
+
+Qurani is an Application for reading and listening to the Holy Quran, supplications, the beautiful names of God, Al Tasbih, supplications, how to perform ablution, and the direction of prayer.
+
+
 
 
 ## :sparkles: Features ##
