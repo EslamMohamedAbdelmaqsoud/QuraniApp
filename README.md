@@ -6,8 +6,7 @@
 Qurani is an Application for reading and listening to the Holy Quran, supplications, the beautiful names of God, Al Tasbih, supplications, how to perform ablution, and the direction of prayer.
 
 ## :sparkles: Features ##
-- :heavy_check_mark: Login/Register users using a Sqlite.
-  
+
 - :heavy_check_mark: Reading and listening to the Holy Quran.
 - :heavy_check_mark: God Names.
 - :heavy_check_mark: Azkar.
