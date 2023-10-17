@@ -9,17 +9,15 @@
     <li><a href="#sparkles-features">Features</a></li>
     <li><a href="#rocket-technologies">Technologies</a></li>
     <li><a href="#email-contact">Contact</a></li>
-
+    
   </ol>
-
+  
 <br>
 
 
 ## :dart: About ##
 
 Qurani is an Application for reading and listening to the Holy Quran, supplications, the beautiful names of God, Al Tasbih, supplications, how to perform ablution, and the direction of prayer.
-
-
 
 
 ## :sparkles: Features ##
@@ -62,7 +60,8 @@ The following tools were used in this project:
 <a href="https://www.linkedin.com/in/eslam-mohamed-8b6a1124a" target="_blank">
     <img src="https://img.shields.io/badge/Connect-Eslam-blue.svg?style=flat&logo=linkedin" alt="linkedin"/>
 </a>
-
 </p>
+
+
 
 <a href="#top">Back to top</a>
