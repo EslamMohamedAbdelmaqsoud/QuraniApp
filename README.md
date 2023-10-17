@@ -35,7 +35,7 @@ The following tools were used in this project:
 - Login/Register (SQLite)
 - Bottom Sheet
 - Animation
-- 
+- data binding
 
 
 
