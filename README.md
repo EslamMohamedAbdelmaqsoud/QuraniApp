@@ -23,6 +23,7 @@ The following tools were used in this project:
 
 - Java
 - Android Studio
+- sdp & ssp
 - MVVM Architecture Pattern
 - Repository Design Pattern
 - Retrofit
@@ -31,14 +32,10 @@ The following tools were used in this project:
 - Translation(Urdu,English ......etc)
 - Audio
 - Shard Preferences
-- SignIn_SignUp (SQLite)
+- Login/Register (SQLite)
 - Bottom Sheet
 - Animation
 - 
-- MVVM, LiveData 
-- Android Testing, UnitTesting, MainCoroutineRule, FakeData Source, dependency injection, End-To-End
-
-
 
 
 
