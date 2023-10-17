@@ -23,7 +23,7 @@ The following tools were used in this project:
 
 - Java
 - Android Studio
-- sdp & ssp
+- SDP & SSP
 - MVVM Architecture Pattern
 - Repository Design Pattern
 - Retrofit
@@ -31,6 +31,7 @@ The following tools were used in this project:
 - Searching
 - Translation(Urdu,English ......etc)
 - Audio
+- Recycler View
 - Shard Preferences
 - Login/Register (SQLite)
 - Bottom Sheet
