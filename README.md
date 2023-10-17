@@ -54,6 +54,10 @@ The following tools were used in this project:
 - Animation
 - data binding
 
+image:: Screenshot_20231017_204101
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
 ![Screensho![Screenshot_20231017_204101](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/b0b1e074-6789-4580-9d5a-a946d6b3bc34)
 t_20231017_204041](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/5c1d2317-7e7f-470f-9ccb-6564b268bdde)
 ![Screenshot_20231017_204052](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/0e539a8d-f5c1-4827-ada3-fd12d53c857f)
