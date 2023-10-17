@@ -3,12 +3,12 @@
 
 ## :dart: About ##
 
-Qurani is a program for reading and listening to the Holy Quran, supplications, the beautiful names of God, Al Tasbih, supplications, how to perform ablution, and the direction of prayer.
+Qurani is an Application for reading and listening to the Holy Quran, supplications, the beautiful names of God, Al Tasbih, supplications, how to perform ablution, and the direction of prayer.
 
 ## :sparkles: Features ##
 - :heavy_check_mark: Login/Register users using a Sqlite.
   
-- :heavy_check_mark: Reading and enjoying the Holy Qur’an.
+- :heavy_check_mark: Reading and listening to the Holy Quran.
 - :heavy_check_mark: God Names.
 - :heavy_check_mark: Azkar.
 - :heavy_check_mark: Altasbih.
@@ -20,13 +20,23 @@ Qurani is a program for reading and listening to the Holy Quran, supplications, 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
-- Firebase authentication, Maps API
-- Geofencing
-- Kotlin, Coroutines
-- Espresso, Mockito
-- MVVM, LiveData 
-- Android Testing , UnitTesting, MainCoroutineRule, FakeData Source, dependency injection, End-To-End
+
+- Java
 - Android Studio
+- MVVM Architecture Pattern
+- Repository Design Pattern
+- Retrofit
+- API
+- Searching
+- Translation(Urdu,English ......etc)
+- Audio
+- Shard Preferences
+- SignIn_SignUp (SQLite)
+- Bottom Sheet
+- Animation
+- 
+- MVVM, LiveData 
+- Android Testing, UnitTesting, MainCoroutineRule, FakeData Source, dependency injection, End-To-End
 
 
 
