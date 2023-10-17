@@ -56,8 +56,8 @@ The following tools were used in this project:
 
 <div align="center">
     <img src="Screenshot_20231017_204101.jpg" width="400px"</img> 
-<!-- </div>
-![Screensho![Screenshot_20231017_204101](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/b0b1e074-6789-4580-9d5a-a946d6b3bc34)
+ </div> -->
+<!-- ![Screensho![Screenshot_20231017_204101](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/b0b1e074-6789-4580-9d5a-a946d6b3bc34)
 t_20231017_204041](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/5c1d2317-7e7f-470f-9ccb-6564b268bdde)
 ![Screenshot_20231017_204052](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/0e539a8d-f5c1-4827-ada3-fd12d53c857f)
 ![Screenshot_20231017_204208](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/61a6dac9-f924-429c-b36a-379995c9826e)
