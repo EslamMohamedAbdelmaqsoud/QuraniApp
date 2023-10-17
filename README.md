@@ -4,9 +4,7 @@
 <!-- TABLE OF CONTENTS -->
 
   <summary>Table of Contents</summary>
-  
   <ol>
-    
     <li><a href="#dart-about">About</a></li>
     <li><a href="#sparkles-features">Features</a></li>
     <li><a href="#rocket-technologies">Technologies</a></li>
