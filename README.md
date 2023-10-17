@@ -14,6 +14,10 @@
   
 <br>
 
+![COVER CONTOH](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/1c6d6eec-41c3-4ed6-bfdc-bca405bc644f)
+![COVER CONTOH (2)](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/1b2e7b01-91ce-4f34-85b8-a2d4a710bd6c)
+![COVER CONTOH (3)](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/8d5ff9a9-7fde-40ce-8ac2-1a4e5b395fbb)
+![COVER CONTOH (4)](https://github.com/EslamMohamedAbdelmaqsoud/QuraniApp/assets/116503852/f21d6a6b-bb49-4dd1-8138-2214291ad382)
 
 
 
