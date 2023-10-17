@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.home.azkar.AzkarActivity">
+
+        <ImageView
+            android:id="@+id/icon_back_azkarActivity"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backs" />
+
+        <TextView
+            android:id="@+id/tex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="ألاذكار "
+            android:textColor="#F9B091"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/icon_back_azkarActivity"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:src="@drawable/ex7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tex" />
+
+        <Button
+            android:id="@+id/button_AzkarMorning_AzkarActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/custom_input0"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_new_24"
+            android:fontFamily="@font/poppins_bold"
+            android:foreground="@drawable/effect"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="أذكار الصباح"
+            android:textAllCaps="false"
+            android:textColor="#F9B091"
+            android:textSize="@dimen/_22ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/button_azkarevening_AzkarActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/custom_input00"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_new_244"
+            android:fontFamily="@font/poppins_bold"
+            android:foreground="@drawable/effect"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="أذكار المساء"
+            android:textAllCaps="false"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_22ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_AzkarMorning_AzkarActivity" />
+
+        <Button
+            android:id="@+id/button_azkarSleeping_AzkarActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/custom_input00"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_new_244"
+            android:fontFamily="@font/poppins_bold"
+            android:foreground="@drawable/effect"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="أذكار النوم"
+            android:textAllCaps="false"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_22ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_azkarWaking_AzkarActivity" />
+
+        <Button
+            android:id="@+id/button_azkarWaking_AzkarActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/custom_input0"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_new_24"
+            android:fontFamily="@font/poppins_bold"
+            android:foreground="@drawable/effect"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="أذكار الاستيقاظ"
+            android:textAllCaps="false"
+            android:textColor="#F9B091"
+            android:textSize="@dimen/_22ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_azkarevening_AzkarActivity" />
+
+        <Button
+            android:id="@+id/button_azkarAfterpayer_AzkarActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/custom_input0"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_new_24"
+            android:fontFamily="@font/poppins_bold"
+            android:foreground="@drawable/effect"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="أذكار بعد الصلاة"
+            android:textAllCaps="false"
+            android:textColor="#F9B091"
+            android:textSize="@dimen/_22ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_azkarSleeping_AzkarActivity" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

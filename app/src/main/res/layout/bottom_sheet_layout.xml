@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_25sdp"
+    android:background="@drawable/sheet_bg"
+    android:id="@+id/sheetContainer">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Translation"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#9D1DF2"/>
+
+    <RadioGroup
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/translation_group"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/urdu_RB"
+            android:text="Urdu"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:checked="true"
+            android:textColor="#F9B091"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/hindi_RB"
+            android:text="Hindi"
+            android:textColor="#F9B091"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/english_RB"
+            android:text="English"
+            android:textSize="18sp"
+            android:textColor="#F9B091"
+
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:text="Select Qari"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#9D1DF2"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/audio_group"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/abdul_basit_murattal"
+        android:text="Abdul Basit Murattal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F9B091"
+
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/abdul_wadood_haneef_rare"
+        android:text="Abdul Wadood Haneef Rare"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F9B091"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/save_settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:textSize="@dimen/_25ssp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_buttons"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:layout_marginEnd="@dimen/_70sdp"/>
+
+</LinearLayout>

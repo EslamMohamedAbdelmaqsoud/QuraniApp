@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.home.Doah.DoahActivity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_115sdp"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="ألادعية "
+                        android:textColor="#9D1DF2"
+                        android:textSize="@dimen/_27ssp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/icon_back_DoahrActivity"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginStart="@dimen/_80sdp"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/backs" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginStart="@dimen/_110sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_110sdp"
+                    android:src="@drawable/image3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="@drawable/image3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/icon_back_azkarActivity" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity1"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء لبس الثوب"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(الْحَمْدُ للَّهِ الَّذِي كَسَانِي هَذَا (الثَّوْبَ) وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّة...)"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand2"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity2"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layoutt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء لبس الثوب الجديد"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="( اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ)."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes2_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand3"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity3"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء دخول الخلاء - الحمام"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="([بِسْمِ اللَّهِ] اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبْثِ وَالْخَبائِث)."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes3_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand4"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity4"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الخروج من الخلاء - الحمام"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(غُفْرَانَكَ)."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes4_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand5"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity5"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الذكر قبل الوضوء"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(بِسْمِ اللَّهِ)."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes5_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand6"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity6"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الذكر بعد الفراغ من الوضوء"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=".(اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ).(أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ..)"
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes6_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand7"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity7"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الذكر عند الخروج من المنزل"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَاَ حَوْلَ وَلَا قُوَّةَ إِلاَّ بِاللَّهِ)."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes7_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand8"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity8"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الذكر عند دخول المنزل"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا، ثُمَّ لِيُسَلِّمْ عَلَى أَهْلِهِ)."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes8_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand9"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity9"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الذهاب إلى المسجد"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُوراً، وَفِي لِسَانِي نُوراً، وَفِي سَمْعِي نُوراً، وَفِي بَصَرِي نُوراً، وَمِنْ فَوْقِي نُوراً، وَمِنْ تَحْتِي نُوراً، وَعَنْ يَمِينِي نُوراً، وَعَنْ شِمَالِي نُوراً، وَمِنْ أَمَامِي نُوراً، وَمِنْ خَلْفِي نُوراً، وَاجْعَلْ فِي نَفْسِي نُوراً، وَأَعْظِمْ لِي نُوراً، وَعَظِّم لِي نُوراً، وَاجْعَلْ لِي نُوراً، وَاجْعَلْنِي نُوراً، اللَّهُمَّ أَعْطِنِي نُوراً، وَاجْعَلْ فِي عَصَبِي نُوراً، وَفِي لَحْمِي نُوراً، وَفِي دَمِي نُوراً، وَفِي شَعْرِي نُوراً، وَفِي بَشَرِي نُوراً)([اللَّهُمَّ اجْعَلْ لِي نُوراً فِي قَبْرِي... وَنُوراً فِي عِظَامِي])[(وَزِدْنِي نُوراً، وَزِدْنِي نُوراً، وَزِدْنِي نُوراً)][(وَهَبْ لِي نُوراً عَلَى نُورٍ)]"
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes9_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand10"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity10"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء دخول المسجد"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(يَبْدَأُ بِرِجْلِهِ الْيُمْنَى) ، وَيَقُولُ: ((أَعُوذُ بِاللَّهِ العَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ، مِنَ الشَّيْطَانِ الرَّجِيمِ))  [بِسْمِ اللَّهِ، وَالصَّلَاةُ] [وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ]  ((اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes10_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand11"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity11"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الخروج من المسجد"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((يَبْدَأُ بِرِجْلِهِ الْيُسْرَى))  وَيَقُولُ: ((بِسْمِ اللَّهِ وَالصّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِك، اللَّهُمَّ اعْصِمْنِي مِنَ الشَّيْطَانِ الرَّجِيمِ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes11_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand12"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity12"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الاستفتاح"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((اللَّهُ أَكْبَرُ كَبِيرَاً، اللَّهُ أَكْبَرُ كَبِيراً، اللَّهُ أَكْبَرُ كَبِيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَسُبْحَانَ اللَّهِ بُكْرَةً وَأَصِيلاً)) ثَلاثاً ((أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ: مِنْ نَفْخِهِ، وَنَفْثِهِ، وَهَمْزِهِ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes12_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand13"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity13"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الهم والحزن"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُــــلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ أَحَداً مِنْ خَلْقِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ القُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلاَءَ حُزْنِي، وَذَهَابَ هَمِّي))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes13_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand14"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity14"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الكرب"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes14_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand15"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity15"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء من أصابه وسوسة في الإيمان"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((يَسْتَعِيذُ بِاللَّهِ و يَنْتَهِي عَمَّا شك فِيهِ)).((يَقُولُ: ((آمَنْتُ بِاللَّهِ وَرُسُلِهِ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes15_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand16"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity16"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء قضاء الدين"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكِ عَمَّنْ سِوَاكَ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes16_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand17"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity17"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الوسوسة في الصلاة و القراءة"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((أَعُوذُ بِاللَّهِ مِنَ الشَّيطَانِ الرَّجِيمِ، وَاتْفُلْ عَلَى يَسَارِكَ (ثلاثاً)))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes17_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand18"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity18"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء من استصعب عليه أمر"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلاً))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes18_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand19"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity19"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ما يقول ويفعل من أذنب ذنبا"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((مَا مِنْ عَبْدٍ يُذنِبُ ذَنْباً فَيُحْسِنُ الطُّهُورَ، ثُمَّ يَقُومُ فَيُصَلِّي رَكْعَتَيْنِ، ثُمَّ يَسْتَغْفِرُ اللَّهَ إِلاَّ غَفَرَ اللَّهُ لَهُ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes19_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand20"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity20"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الدعاء حينما يقع ما لا يرضاه أو غلب على أمره"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((قَدَرُ اللَّهُ وَمَا شَاءَ فَعَلَ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes20_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand21"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity21"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الدعاء للمريض في عيادته"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="(أَسْأَلُ اللَّهَ الْعَظيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفيَكَ)."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes21_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand22"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity22"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء من أصيب بمصيبة"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ، اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي، وَأَخْلِفْ لِي خَيْرَاً مِنْهَا))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes22_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand23"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity23"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الدعاء للميت في الصلاة عليه"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ، وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ مِنَ الْخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهُ دَاراً خَيْراً مِنْ دَارِهِ، وَأَهْلاً خَيْراً مِنْ أَهْلِهِ، وَزَوْجَاً خَيْراً مِنْ زَوْجِهِ، وَأَدْخِلْهُ الْجَنَّةَ، وَأَعِذْهُ مِنْ عَذَابِ القَبْرِ [وَعَذَابِ النَّارِ]))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes23_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand24"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity24"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء زيارة القبور"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((السَّلاَمُ عَلَيْكُمْ أَهْلَ الدِّيَارِ، مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللَّهُ بِكُمْ لاَحِقُونَ، [وَيَرْحَمُ اللَّهُ الْمُسْتَقدِمِينَ مِنَّا وَالْمُسْتأْخِرِينَ] أَسْاَلُ اللَّهَ لَنَا وَلَكُمُ الْعَافِيَةَ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes24_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand25"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity25"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+                    <LinearLayout
+                        android:id="@+id/layout25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء الريح"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَخَيْرَ مَا فِيهَا، وَخَيْرَ مَا أُرْسِلَتْ بِهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ مَا فِيهَا، وَشَرِّ مَا أُرْسِلَتْ بِهِ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes25_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand26"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity26"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الدعاء إذا نزل المطر"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details26"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((اللَّهُمَّ صَيِّباً نَافِعاً))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes26_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand27"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity27"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الدعاء عند إفطار الصائم - الصوم"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((ذَهَبَ الظَّمَأُ وَابْتَلَّتِ العُرُوقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes27_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand28"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity28"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الدعاء قبل الطعام"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details28"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((إِذَا أَكَلَ أَحَدُكُمْ طَعَاماً فَلْيَقُلْ بِسْمِ اللَّهِ، فَإِنْ نَسِيَ فِي أَوَّلِهِ فَلْيَقُلْ بسمِ اللَّهِ فِي أَوَّلِهِ وَآخِرِهِ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes28_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand29"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity29"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء العطاس"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details29"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="((إِذَا عَطَسَ أَحَدُكُم فَلْيَقُلِ الْحَمْدُ لِلَّهِ، وَلْيَقُلْ لَهُ أَخُوهُ أَوْ صَاحِبُهُ: يَرْحَمُكَ اللَّهُ، فَإِذَا قَالَ لَهُ: يَرحَمُكَ اللَّهُ، فَلْيَقُلْ: يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes29_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand30"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity30"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="دعاء السفر"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details30"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، ﴿سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ * وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ﴾ ((اللَّهُمَّ إِنّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا البِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى، اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ، اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ، وَالْخَليفَةُ فِي الْأَهْلِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ، وَكَآبَةِ الْمَنْظَرِ، وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالْأَهْلِ))، وإذا رَجَعَ قَالَهُنَّ وَزَادَ فِيهِنَّ: ((آيِبُونَ، تائِبُونَ، عَابِدُونَ، لِرَبِّنَا حَامِدُونَ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes30_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand31"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity31"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الدعاء يوم عرفة"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details31"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="قَالَ النَّبِيُّ صلى الله عليه وسلم: ((خَيْرُ الدُّعَاءِ دُعَاءُ يَوْمِ عَرَفَةَ، وَخَيْرُ مَا قُلْتُ أَنَا وَالنَّبيُّونَ مِنْ قَبْلِي: لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes31_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:onClick="expand32"
+                    app:cardBackgroundColor="@color/editText_color"
+                    app:cardCornerRadius="20dp"
+                    app:cardMaxElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/icon_DoahrActivity32"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/push" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="الاستغفار و التوبة"
+                            android:textAlignment="textStart"
+                            android:textColor="#9D1DF2"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/details32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="وَقَالَ صلى الله عليه وسلم: ((مَنْ قَالَ أَسْتَغْفِرُ اللَّهَ الْعَظيمَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ القَيّوُمُ وَأَتُوبُ إِلَيهِ، غَفَرَ اللَّهُ لَهُ وَإِنْ كَانَ فَرَّ مِنَ الزَّحْفِ))."
+                            android:textAlignment="textStart"
+                            android:textColor="#F9B091"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/icon_CopyTextdes32_doahActivity"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/archives" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

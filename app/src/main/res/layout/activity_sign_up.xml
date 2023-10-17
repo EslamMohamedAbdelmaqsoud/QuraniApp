@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.home.SignUPActivity">
+
+        <TextView
+            android:id="@+id/text_FullName_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="البريد الالكتروني*"
+            android:textAllCaps="false"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_SignUpActivity" />
+
+        <EditText
+            android:id="@+id/edit_text_FullName_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+            android:drawableEnd="@drawable/ic_baseline_person_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="أدخل البريد الالكتروني"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColor="#9D1DF2"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_FullName_SignUpActivity" />
+
+
+        <TextView
+            android:id="@+id/text_Email_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="كلمة المرور*"
+            android:textAllCaps="false"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_FullName_SignUpActivity" />
+
+        <EditText
+            android:id="@+id/edit_text_Email_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+            android:drawableEnd="@drawable/custom_email_icon"
+            android:drawablePadding="@dimen/_10sdp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="أدخل كلمة المرور"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAlignment="textEnd"
+            android:textColor="#9D1DF2"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_Email_SignUpActivity" />
+
+        <TextView
+            android:id="@+id/text_Password_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="تأكيد كلمة المرور*"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_Email_SignUpActivity" />
+
+        <EditText
+            android:id="@+id/edit_text_Password_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:autofillHints="password"
+            android:background="@drawable/custom_input"
+            android:drawableEnd="@drawable/custom_password_icon"
+            android:drawablePadding="@dimen/_10sdp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="أكد كلمة المرور"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAlignment="textEnd"
+            android:textColor="#9D1DF2"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_Password_SignUpActivity" />
+
+        <ImageView
+            android:id="@+id/image_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_135sdp"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_marginEnd="@dimen/_50sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/signup_cuate" />
+
+
+        <Button
+            android:id="@+id/button_SignUp_SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_80sdp"
+            android:background="@drawable/custom_buttons"
+            android:fontFamily="@font/poppins_bold"
+            android:foreground="@drawable/effect"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="أنشاء حساب"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_Password_SignUpActivity" />
+
+        <TextView
+            android:id="@+id/text_SignIn_SignUpActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/line_under_text"
+            android:inputType="text"
+            android:text="سجل الدخول الان!"
+            android:textColor="#F9B091"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/text_AlreadyHave_SignUpActivity"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_SignUp_SignUpActivity" />
+
+        <TextView
+            android:id="@+id/text_AlreadyHave_SignUpActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_45sdp"
+            android:text="هل لديك حساب؟"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_SignIn_SignUpActivity"
+            app:layout_constraintTop_toBottomOf="@+id/button_SignUp_SignUpActivity" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

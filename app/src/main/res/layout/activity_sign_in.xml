@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.home.SignInActivity">
+
+
+        <TextView
+            android:id="@+id/text_Email_SignInActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="البريد الالكتروني*"
+            android:textAllCaps="false"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_SignInActivity" />
+
+        <EditText
+            android:id="@+id/edit_text_Email_SignInActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+            android:drawableEnd="@drawable/custom_email_icon"
+            android:drawablePadding="@dimen/_10sdp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="أدخل البريد الالكتروني"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColor="#9D1DF2"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_Email_SignInActivity" />
+
+        <TextView
+            android:id="@+id/text_Password_SignInActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_170sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="كلمة المرور*"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_Email_SignInActivity" />
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="أدخل كلمة المرور"
+            android:textColorHint="@color/white"
+            app:helperTextTextColor="#9D1DF2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_Password_SignInActivity"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#9D1DF2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_text_Password_SignInActivity"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/custom_input"
+                android:fontFamily="@font/poppins"
+                android:inputType="textPassword"
+                android:paddingStart="@dimen/_10sdp"
+                android:textColor="#9D1DF2"
+                android:textSize="@dimen/_12ssp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/image_SignInActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_160sdp"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_50sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/login_cuate" />
+
+
+        <Button
+            android:id="@+id/button_SignIn_SignInActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_80sdp"
+            android:background="@drawable/custom_buttons"
+            android:fontFamily="@font/poppins_bold"
+            android:foreground="@drawable/effect"
+            android:paddingTop="@dimen/_3sdp"
+            android:text=" تسجيل الدخول"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+        <TextView
+            android:id="@+id/text_SignUpNow_SignInActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/line_under_text"
+            android:enabled="true"
+            android:lines="1"
+            android:text="أنشأء حساب الأن!"
+            android:textColor="#F9B091"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/text_DontHave_SignInActivity"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_SignIn_SignInActivity" />
+
+        <TextView
+            android:id="@+id/text_DontHave_SignInActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_35sdp"
+            android:text="ليس لديك حساب ؟"
+            android:textColor="#9D1DF2"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_SignUpNow_SignInActivity"
+            app:layout_constraintTop_toBottomOf="@+id/button_SignIn_SignInActivity" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

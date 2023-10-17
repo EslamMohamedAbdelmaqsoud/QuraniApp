@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/quran1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quran1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuraniApp"
+        android:usesCleartextTraffic="true"
+        tools:ignore="HardcodedDebugMode"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".activities.home.setting.ThemeSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.setting.LanguageSettingActivity"
+            android:exported="false" />
+
+      <!-- // لمنع تدوير الشاشة -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- //لمنع تسجيل الشاشة -->
+        <!-- getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE); -->
+        <activity
+            android:name=".activities.home.learnablution.LearnAblutionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.tasbih.Tasbih5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.tasbih.Tasbih4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.azkar.DetailsAzkarActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.azkar.DetailsAzkarActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.azkar.DetailsAzkarActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.azkar.DetailsAzkarActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.azkar.DetailsAzkarActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.Doah.DoahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.qiubla.QiablahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.azkar.AzkarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.setting.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.namesallah.NamesAllahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.tasbih.Tasbih3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.tasbih.Tasbih2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.tasbih.Tasbih1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.tasbih.TasbihActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.quran.SurahDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.quran.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.SignUPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.OnBordingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.home.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

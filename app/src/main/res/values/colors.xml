@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="editText_color">#FFFFFFFF</color>
+    <color name="Stroke_Icon_Color">#FFAAAAAA</color>
+    <color name="Stroke_Icon_Color_Focused">#0B7840</color>
+    <color name="effect_color">#0D0B7840</color>
+    <!--    <color name="Text_link_color">#0B7840</color>-->
+    <color name="Button_Color">#0B7840</color>
+</resources>
