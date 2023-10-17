@@ -14,6 +14,17 @@
   
 <br>
 
+<p align="center" id="top"> 
+<img src="Screenshot_20231017_204041.png" alt="Blood_bank Project" width="200" height="300" />
+<img src="/images/list.jpg" alt="Blood_bank Project" width="200" height="300" /> 
+<img src="/images/info.jpg" alt="Blood_bank Project" width="200" height="300" />
+
+
+<img src="/images/map.jpg" alt="Blood_bank Project" width="200" height="300" />
+
+</p>
+
+
 
 ## :dart: About ##
 
