@@ -53,9 +53,8 @@ The following tools were used in this project:
 - data binding
 
 
-
-
 ### :email: Contact ##
+
 <p align="center">
 <a href="https://www.linkedin.com/in/eslam-mohamed-8b6a1124a" target="_blank">
     <img src="https://img.shields.io/badge/Connect-Eslam-blue.svg?style=flat&logo=linkedin" alt="linkedin"/>
