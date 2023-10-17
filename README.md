@@ -1,10 +1,9 @@
-# QuraniApp
-Qurani Project Using Java
+
 <p align="center">
   <img src="/images/demo.gif" alt="Demo">
 </p>
 
-<h1 align="center">Load App</h1>
+<h1 align="center">Qurani App</h1>
 
 <p align="center">
 
